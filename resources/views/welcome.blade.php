@@ -4,10 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="SGW Berjaya dikenal sebagai salah satu perusahaan lokal terkemuka yang mendistribusikan berbagai produk kebutuhan rumah tangga, perawatan kain, perawatan diri, makanan dan minuman.">
-    <meta name="keywords" content="consumer goods,bahan makanan pokok,bahan kue,penyedap rasa,perawatan tubuh,minyak goreng,perlengkapan sehari hari,peralatan pribadi">
-    <meta name="author" content="Kevin Jonathan">
-    <title>SGW Berjaya</title>
+    <meta name="description" content="Rexie is a collection of degenerate around the globe all on a mission to win big. A brand focused adhering to the needs of the community with a unique direction of ideas and utilities. Build and powered by Xeca">
+{{--    <meta name="keywords" content="consumer goods,bahan makanan pokok,bahan kue,penyedap rasa,perawatan tubuh,minyak goreng,perlengkapan sehari hari,peralatan pribadi">--}}
+    <meta name="author" content="Rexie World">
+    <title>Rexie World</title>
     <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('assets/img/fav/apple-icon-57x57.png') }}">
     <link rel="apple-touch-icon" sizes="60x60" href="{{ asset('assets/img/fav/apple-icon-60x60.png') }}">
     <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('assets/img/fav/apple-icon-72x72.png') }}">
@@ -31,37 +31,19 @@
     <link rel="preload" href="{{ asset('assets/css/fonts/urbanist.css') }}" as="style" onload="this.rel='stylesheet'">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
 <div class="content-wrapper">
-    <header class="wrapper bg-light">
-        <div class="bg-success text-white fw-bold fs-15 mb-2">
-            <div class="container py-2 d-md-flex flex-md-row">
-                <div class="d-flex flex-row align-items-center">
-                    <div class="icon text-white fs-22 mt-1 me-2"> <i class="uil uil-location-pin-alt"></i></div>
-                    <address class="mb-0">Pamulang Barat, Kota Tangerang Selatan</address>
-                </div>
-                <div class="d-flex flex-row align-items-center me-6 ms-auto">
-                    <div class="icon text-white fs-22 mt-1 me-2"> <i class="uil uil-phone-volume"></i></div>
-                    <p class="mb-0">0877-7447-2616</p>
-                </div>
-                <div class="d-flex flex-row align-items-center">
-                    <div class="icon text-white fs-22 mt-1 me-2"> <i class="uil uil-message"></i></div>
-                    <p class="mb-0"><a href="mailto:sgwberjaya@gmail.com" class="link-white hover">sgwberjaya@gmail.com</a></p>
-                </div>
-            </div>
-            <!-- /.container -->
-        </div>
-        <nav class="navbar navbar-expand-lg center-nav transparent navbar-light">
+    <header class="wrapper mb-1">
+        <nav class="navbar navbar-expand-lg center-nav transparent navbar-light caret-none">
             <div class="container flex-lg-row flex-nowrap align-items-center">
                 <div class="navbar-brand w-100">
-                    <a href="/">
-                        <img src="{{ asset('assets/img/logo.png') }}" alt="SGW Berjaya" />
+                    <a href=".">
+                        <img src="./assets/img/logo.png" alt="">
                     </a>
                 </div>
                 <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
                     <div class="offcanvas-header d-lg-none d-xl-none">
-                        <a href="/"><img src="{{ asset('assets/img/logo.png') }}" alt="SGW Berjaya Logo" /></a>
+                        <a href="/"><img src="./assets/img/logo.png" alt=""></a>
                         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
@@ -70,23 +52,22 @@
                                 <a class="nav-link scroll" href="#home">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link scroll" href="#about-us">Tentang Kami</a>
+                                <a class="nav-link scroll" href="#about-us">About Us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link scroll" href="#our-service">Layanan Kami</a>
+                                <a class="nav-link scroll" href="#roadmap">Roadmap</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link scroll" href="#contact-us">Hubungi Kami</a>
+                                <a class="nav-link scroll" href="#faq">FAQ</a>
                             </li>
                         </ul>
-
                         <!-- /.navbar-nav -->
                         <div class="d-lg-none mt-auto pt-6 pb-6 order-4">
-                            <a href="mailto:sgwberjaya@gmail.com" class="link-inverse">sgwberjaya@gmail.com</a>
-                            <br /> 0877-7447-2616 <br />
+                            <a href="mailto:first.last@email.com" class="link-inverse">info@email.com</a>
+                            <br> 00 (123) 456 78 90 <br>
                             <nav class="nav social social-white mt-4">
-                                <a href="https://www.facebook.com/Sgwberjaya" target="_blank"><i class="uil uil-facebook-f"></i></a>
-                                <a href="https://instagram.com/sgwberjaya" target="_blank"><i class="uil uil-instagram"></i></a>
+                                <a href="https://twitter.com/RexieNFT" target="_blank"><i class="uil uil-twitter"></i></a>
+                                <a href="https://discord.gg/sjgx9cascR" target="_blank"><i class="uil uil-discord"></i></a>
                             </nav>
                             <!-- /.social -->
                         </div>
@@ -97,16 +78,12 @@
                 <!-- /.navbar-collapse -->
                 <div class="navbar-other w-100 d-flex ms-auto">
                     <ul class="navbar-nav flex-row align-items-center ms-auto">
-{{--                        <li class="nav-item dropdown language-select text-uppercase">--}}
-{{--                            <a class="nav-link dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">En</a>--}}
-{{--                            <ul class="dropdown-menu">--}}
-{{--                                <li class="nav-item"><a class="dropdown-item" href="#">En</a></li>--}}
-{{--                                <li class="nav-item"><a class="dropdown-item" href="#">De</a></li>--}}
-{{--                                <li class="nav-item"><a class="dropdown-item" href="#">Es</a></li>--}}
-{{--                            </ul>--}}
-{{--                        </li>--}}
-                        <li class="nav-item d-none d-md-block">
-                            <a href="https://api.whatsapp.com/send?phone=6287774472616&text=Hi%20CV%20SGW%20Berjaya%2C%20saya%20ingin%20bertanya" target="_blank" class="btn btn-sm btn-success rounded">Whatsapp</a>
+                        <li class="nav-item">
+                            <nav class="nav social social-muted justify-content-end text-end">
+                                <a href="https://twitter.com/RexieNFT" target="_blank"><i class="uil uil-twitter icon btn btn-circle btn-xs btn-soft-blue"></i></a>
+                                <a href="https://discord.gg/sjgx9cascR" target="_blank"><i class="uil uil-discord icon btn btn-circle btn-xs btn-soft-blue"></i></a>
+                            </nav>
+                            <!-- /.social -->
                         </li>
                         <li class="nav-item d-lg-none">
                             <button class="hamburger offcanvas-nav-btn"><span></span></button>
@@ -121,338 +98,262 @@
         <!-- /.navbar -->
     </header>
     <!-- /header -->
-    <section class="wrapper bg-light" id="home">
-        <div class="container-card">
-            <div class="card image-wrapper bg-full bg-image bg-overlay bg-overlay-light-500 mt-2 mb-5" data-image-src="{{ asset('assets/img/photos/bg24.png') }}">
-                <div class="card-body py-14 px-0">
-                    <div class="container">
-                        <div class="row gx-md-8 gx-xl-12 gy-10 align-items-center text-center text-lg-start">
-                            <div class="col-lg-7" data-cues="slideInDown" data-group="page-title" data-delay="900">
-                                <h1 class="display-2 mb-4 me-xl-5 me-xxl-0"><span class="text-gradient gradient-6">CV SGW Berjaya</span></h1>
-                                <p class="lead fs-23 lh-sm mb-7 pe-xxl-15">Dengan keahlian dan pengalaman kami yang luas, memampukan kami untuk memahami kebutuhan partner bisnis dengan lebih baik dan untuk memberikan solusi yang disesuaikan guna menumbuhkan bisnis partner.</p>
-                                <span ><a class="btn btn-success rounded mx-1 mb-3" href="https://api.whatsapp.com/send?phone=6287774472616&text=Hi%20CV%20SGW%20Berjaya%2C%20saya%20ingin%20bertanya" target="_blank">Whatsapp</a></span>
-                                <span ><a class="btn btn-danger rounded mx-1 mb-3" href="https://shopee.co.id/sgwberjaya" target="_blank">Shopee</a></span>
-                                <span ><a class="btn btn-success rounded mx-1 mb-3" href="https://www.tokopedia.com/cvsgw?utm_source=whatsapp&utm_medium=share&utm_campaign=Shop-67155372-13287610-130322&_branch_match_id=744884473984966054&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL8nPzi9ITclM1MvJzMvWD0lLKrI0dPPNzU8CAKEmlWciAAAA" target="_blank">Tokopedia</a></span>
-                                <span ><a class="btn btn-success rounded mx-1 mb-3" href="https://www.grab.com/id/?pid=inappsharing&c=6-C3CUR7NUCABAVN&is_retargeting=true&af_force_deeplink=true" target="_blank">Grab Mart</a></span>
+    <section class="wrapper bg-light">
+        <div class="container">
+            <div class="card bg-soft-primary rounded-4 mt-2 mb-13 mb-md-17">
+                <div class="card-body p-md-10 py-xl-11 px-xl-15">
+                    <div class="row gx-lg-8 gx-xl-0 gy-10 align-items-center">
+                        <div class="col-lg-6 order-lg-2 d-flex position-relative">
+                            <img class="img-fluid ms-auto mx-auto me-lg-8" src="./assets/img/rexie.gif" alt="Rexie NFT" data-cue="fadeIn">
+                            <div data-cue="slideInRight" data-delay="300">
+                                <div class="card shadow-lg position-absolute" style="bottom: 10%; right: -3%;">
+                                    <div class="card-body py-2 px-3">
+                                        <div class="d-flex flex-row align-items-center">
+                                            <div>
+                                                <img src="./assets/img/icons/lineal/check.svg" class="icon-svg icon-svg-sm text-primary mx-auto me-3" alt="">
+                                            </div>
+                                            <div>
+                                                <h3 class="counter mb-0 text-nowrap">5555</h3>
+                                                <p class="fs-14 lh-sm mb-0 text-nowrap">Supply</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--/.card-body -->
+                                </div>
+                                <!--/.card -->
                             </div>
-                            <!--/column -->
-                            <div class="col-lg-4 offset-lg-1 mb-n18">
-                                <a href="{{ asset("assets/img/video.mp4") }}" class="btn btn-circle btn-primary btn-play ripple mx-auto mb-5 position-absolute" style="top:50%; left: 50%; transform: translate(-50%,-50%); z-index:3;" data-glightbox><i class="icn-caret-right"></i></a>
-                                <div class="shape rounded bg-soft-primary rellax d-md-block" data-rellax-speed="0" style="bottom: -1.8rem; right: -1.5rem; width: 85%; height: 90%; "></div>
-                                <figure class="rounded"><img src="{{ asset("assets/img/minyak-goreng-video.jpeg") }}" alt="Minyak Goreng"></figure>
-{{--                                <img class="img-fluid mb-n18" src="{{ asset("assets/img/warehouse.png") }}" data-cue="fadeIn" data-delay="300" alt="SGW Wijaya" />--}}
-                            </div>
-                            <!--/column -->
+                            <!--/div -->
                         </div>
-                        <!-- /.row -->
+                        <!--/column -->
+                        <div class="col-lg-6 text-center text-lg-start" data-cues="slideInDown" data-group="page-title" data-delay="600">
+                            <h1 class="display-2 mb-5">Rexie is a collection of <span class="underline-3 style-3 orange">5555 digital culture</span></h1>
+                            <p class="lead fs-lg lh-sm mb-7 pe-xl-10">A brand focused adhering to the needs of the community with a unique direction of ideas and utilities.</p>
+                            <div class="d-flex justify-content-center justify-content-lg-start" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
+                                <span><a href="#about-us" class="btn btn-lg btn-primary rounded-pill me-2 scroll">Explore Now</a></span>
+                            </div>
+                        </div>
+                        <!--/column -->
                     </div>
-                    <!-- /.container -->
+                    <!--/.row -->
                 </div>
                 <!--/.card-body -->
             </div>
             <!--/.card -->
-        </div>
-        <!-- /.container-card -->
-    </section>
-    <!-- /section -->
-    <section class="wrapper bg-light" id="about-us">
-        <div class="container py-14 py-md-13">
-            <div class="row gx-lg-8 gx-xl-12 gy-10 gy-lg-0 mb-14">
-                <div class="col-lg-4">
-                    <h2 class="display-4 mb-3 pe-xxl-5">Dipercaya lebih dari 50+ partner</h2>
-                    <p class="lead fs-lg mb-0 pe-xxl-5">Setia menjadi <span class="text-gradient gradient-6">food solutions</span> bagi bisnis Anda!</p>
-                </div>
-                <!-- /column -->
-                <div class="col-lg-8">
-                    <div class="row row-cols-2 row-cols-md-4 gx-0 gx-md-8 gx-xl-12 gy-11 mt-n10"  data-cues="slideInDown" data-group="page-title" >
-                        <div class="col">
-                            <figure class="px-4 px-lg-3 px-xxl-5"><img src="{{ asset("assets/img/geprekbensu.png") }}" alt="Geprek Bensu"></figure>
+            <div class="row gx-lg-8 gx-xl-12 gy-12 align-items-center" id="about-us">
+                <div class="col-lg-6 position-relative">
+                    <div class="btn btn-circle btn-orange disabled position-absolute counter-wrapper flex-column d-none d-md-flex" style="top: 50%; left: 50%; transform: translate(-50%, -50%); width: 170px; height: 170px;">
+                        <h3 class="text-white mb-1 mt-n2"><span class="counter counter-lg">300+</span></h3>
+                        <p>Variants</p>
+                    </div>
+                    <div class="row gx-md-5 gy-5 align-items-center">
+                        <div class="col-md-6">
+                            <div class="row gx-md-5 gy-5">
+                                <div class="col-md-10 offset-md-2">
+                                    <figure class="rounded"><img src="./assets/img/sketch.jpeg" alt=""></figure>
+                                </div>
+                                <!--/column -->
+                                <div class="col-md-12">
+                                    <figure class="rounded"><img src="./assets/img/traits-sketch.jpeg" alt=""></figure>
+                                </div>
+                                <!--/column -->
+                            </div>
+                            <!--/.row -->
                         </div>
                         <!--/column -->
-                        <div class="col">
-                            <figure class="px-4 px-lg-3 px-xxl-5"><img src="{{ asset("assets/img/imbensu.png") }}" alt="I'm Bensu"></figure>
-                        </div>
-                        <!--/column -->
-                        <div class="col">
-                            <figure class="px-4 px-lg-3 px-xxl-5"><img src="{{ asset("assets/img/saungkito.png") }}" alt="Saung Kito"></figure>
-                        </div>
-                        <!--/column -->
-                        <div class="col">
-                            <figure class="px-4 px-lg-3 px-xxl-5"><img src="{{ asset("assets/img/gepreknjep.png") }}" alt="Ayam Geprek Njep"></figure>
+                        <div class="col-md-6">
+                            <figure class="rounded"><img src="./assets/img/school-boy.jpeg" alt=""></figure>
                         </div>
                         <!--/column -->
                     </div>
                     <!--/.row -->
-                </div>
-                <!-- /column -->
-            </div>
-
-            <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center mb-14 mb-md-10">
-                <div class="col-lg-6 order-lg-2">
-                    <div class="row gx-md-5 gy-5 position-relative">
-                        <div class="col-5">
-                            <img class="img-fluid rounded shadow-lg my-5 d-flex ms-auto" data-cue="fadeIn" data-delay="300" src="{{ asset("assets/img/beras.jpeg") }}"  alt="Beras SGW Berjaya" />
-                            <img class="img-fluid rounded shadow-lg d-flex col-10 ms-auto" data-cue="fadeIn" data-delay="600" src="{{ asset("assets/img/minyak-goreng.jpeg") }}" alt="Minyak Goreng SGW Berjaya" />
-                        </div>
-                        <!-- /column -->
-                        <div class="col-7">
-                            <img class="img-fluid rounded shadow-lg mb-5" data-cue="fadeIn" data-delay="900" src="{{ asset("assets/img/gudang.jpeg") }}" alt="Gudang SGW Berjaya"  />
-                            <img class="img-fluid rounded shadow-lg d-flex col-11" data-cue="fadeIn" data-delay="1200" src="{{ asset("assets/img/minyak-botol.jpeg") }}" alt="Minyak Botol SGW Berjaya"  />
-                        </div>
-                        <!-- /column -->
-                    </div>
-                    <!-- /.row -->
                 </div>
                 <!--/column -->
                 <div class="col-lg-6">
-                    <h3 class="display-4 mb-5">Kenapa Harus CV SGW Berjaya</h3>
-                    <p class="mb-5">Kami menyediakan berbagai macam sembako dan kebutuhan rumah tangga</p>
-                    <div class="row gy-3" data-cues="slideInDown" data-group="page-title">
-                        <div class="card shadow-lg me-lg-6">
-                            <div class="card-body p-6">
-                                <div class="d-flex flex-row">
-                                    <div>
-                                        <span class="icon btn btn-circle btn-lg btn-soft-primary disabled me-4"><span class="number">01</span></span>
-                                    </div>
-                                    <div>
-                                        <h4 class="mb-1">Integrity</h4>
-                                        <p class="mb-0">Kami percaya untuk menjadi transparan dan melakukan hal yang benar di setiap elemen bisnis kami.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--/.card-body -->
-                        </div>
-                        <!--/.card -->
-                        <div class="card shadow-lg me-lg-6">
-                            <div class="card-body p-6">
-                                <div class="d-flex flex-row">
-                                    <div>
-                                        <span class="icon btn btn-circle btn-lg btn-soft-primary disabled me-4"><span class="number">02</span></span>
-                                    </div>
-                                    <div>
-                                        <h4 class="mb-1">Our Responsibilities</h4>
-                                        <p class="mb-0">Kami selalu memenuhi kewajiban kami untuk tepat sasaran dan waktu.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--/.card-body -->
-                        </div>
-                        <!--/.card -->
-                        <div class="card shadow-lg  me-lg-6">
-                            <div class="card-body p-6">
-                                <div class="d-flex flex-row">
-                                    <div>
-                                        <span class="icon btn btn-circle btn-lg btn-soft-primary disabled me-4"><span class="number">03</span></span>
-                                    </div>
-                                    <div>
-                                        <h4 class="mb-1">Long term relationship</h4>
-                                        <p class="mb-0">Kami selalu menjaga dan menghormati hubungan jangka panjang dengan partner kami untuk memberikan pertumbuhan bisnis yang berkelanjutan.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--/.card-body -->
-                        </div>
-                        <!--/.card -->
-                    </div>
+                    <h2 class="fs-15 text-uppercase text-line text-primary mb-3">About Us</h2>
+                    <br>
+                    <img src="./assets/img/rexie-md.png" class="mb-4" alt="" />
+                    <p class="mb-7">
+                        Rexie is a collection of degenerate around the globe all on a mission to win big. A brand focused adhering to the needs of the community with a unique direction of ideas and utilities.
+                        <br>
+                        <br>
+                        With over 300++ variants and endless combinations of traits, each Rexie NFT contains a verifiably rare and unique Rexie artwork and is stored as on the Solana blockchain.
+                    </p>
                     <!--/.row -->
                 </div>
                 <!--/column -->
             </div>
             <!--/.row -->
-            <section class="wrapper bg-light">
-                <div class="container py-14 py-md-10">
+            <div class="row  mb-11 mt-15" id="roadmap">
+                <div class="col-lg-12 mx-auto">
+                    <div class="col-lg-12">
+                        <h2 class="fs-15 text-uppercase text-line text-primary mb-3">Roadmap</h2>
+                        <h3 class="display-4 mb-3 pe-xl-10">Our Vision</h3>
+                        <p class="lead fs-lg mb-0 pe-xxl-10">We believe that NFTs should look gorgeous, but have utility and purpose as well. The NFTs collection we provide will be the high-quality art you expect from Rexie, our NFTs will also grant access to Rexie DAO, artist collaboration, collections rewards, experiences, and much more.</p>
+                    </div>
+                    <div class="row gx-lg-12 gx-xl-12 process-wrapper text-center mt-10 mb-10">
+                        <div class="col-md-4">
+                            <img src="./assets/img/icons/solid/code.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="" />
+                            <h4 class="mb-1">1. LABS</h4>
+                            <p class="mb-0">Rexie Labs is the brains behind Rexie World. We are a group of creative individuals, digital marketers and passionate coder who are constantly experimenting and building. We innovate and deliver ways to make community members beneficiaries.</p>
+                        </div>
+                        <!--/column -->
+                        <div class="col-md-4">
+                            <img src="./assets/img/icons/lineal/shope-3.svg" class="svg-inject icon-svg icon-svg-md text-red mb-3" alt="" />
+                            <h4 class="mb-1">2. MERCH</h4>
+                            <p class="mb-0">Potential exclusive holders only drops of branded merch, clothing, collectibles, and more. </p>
+                        </div>
+                        <!--/column -->
+                        <div class="col-md-4">
+                            <img src="./assets/img/icons/solid/love.svg" class="svg-inject icon-svg icon-svg-md text-leaf mb-3" alt="" />
+                            <h4 class="mb-1">3. CLARITY</h4>
+                            <p class="mb-0">We will partnership with non-profit organisation serving as a we will build the platform on Solana for activities related to social responsibility, education, children. together we make our World A Better Place</p>
+                        </div>
+                        <!--/column -->
+                    </div>
+                    <!--/.row -->
+                </div>
+                <!-- /column -->
+            </div>
+            <!--/.row -->
+            <div class="card bg-soft-primary rounded-4 mt-10" id="faq">
+                <div class="card-body p-md-15 p-xl-11">
+                    <div class="row gx-lg-8 gx-xl-12 gy-10">
+                        <div class="col-lg-6">
+                            <h3 class="display-4 mb-4">Frequently Asked Questions</h3>
+                            <p class="lead fs-lg mb-0">If you don't see an answer to your question, you can open a ticket from our discord.</p>
+                        </div>
+                        <!--/column -->
+                        <div class="col-lg-6">
+                            <div class="accordion accordion-wrapper" id="accordionExample">
+                                <div class="card plain accordion-item">
+                                    <div class="card-header" id="headingOne">
+                                        <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">How much supply?</button>
+                                    </div>
+                                    <!--/.card-header -->
+                                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <p>5555</p>
+                                        </div>
+                                        <!--/.card-body -->
+                                    </div>
+                                    <!--/.accordion-collapse -->
+                                </div>
+                                <!--/.accordion-item -->
+                                <div class="card plain accordion-item">
+                                    <div class="card-header" id="headingTwo">
+                                        <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Mint price?</button>
+                                    </div>
+                                    <!--/.card-header -->
+                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <p>TBA</p>
+                                        </div>
+                                        <!--/.card-body -->
+                                    </div>
+                                    <!--/.accordion-collapse -->
+                                </div>
+                                <!--/.accordion-item -->
+                                <div class="card plain accordion-item">
+                                    <div class="card-header" id="headingThree">
+                                        <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Mint date?</button>
+                                    </div>
+                                    <!--/.card-header -->
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <p>TBA</p>
+                                        </div>
+                                        <!--/.card-body -->
+                                    </div>
+                                    <!--/.accordion-collapse -->
+                                </div>
+                                <!--/.accordion-item -->
+                                <div class="card plain accordion-item">
+                                    <div class="card-header" id="headingFour">
+                                        <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">What Launchpad?</button>
+                                    </div>
+                                    <!--/.card-header -->
+                                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <p>TBA</p>
+                                        </div>
+                                        <!--/.card-body -->
+                                    </div>
+                                    <!--/.accordion-collapse -->
+                                </div>
+                                <!--/.accordion-item -->
+                                <div class="card plain accordion-item">
+                                    <div class="card-header" id="headingFive">
+                                        <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">What are Rexie World NFT?</button>
+                                    </div>
+                                    <!--/.card-header -->
+                                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <p>Rexie is unique NFT collection of 5555 of degenerate young avatars NFT playing on Solana and grant exclusive access to the Rexie DAO. The journey begins with toys NFT drops, community-driven design, art contests, artist and brand collabs, etc.</p>
+                                        </div>
+                                        <!--/.card-body -->
+                                    </div>
+                                    <!--/.accordion-collapse -->
+                                </div>
+                                <!--/.accordion-item -->
+                                <div class="card plain accordion-item">
+                                    <div class="card-header" id="headingSix">
+                                        <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">Do I own the IP for my Rexie NFTs?</button>
+                                    </div>
+                                    <!--/.card-header -->
+                                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <p>Yes, when holding a Rexie, you completely own it in its entirety. This means you may use your NFT for whatever use case, commercial rights included.</p>
+                                        </div>
+                                        <!--/.card-body -->
+                                    </div>
+                                    <!--/.accordion-collapse -->
+                                </div>
+                                <!--/.accordion-item -->
+                            </div>
+                            <!--/.accordion -->
+                        </div>
+                        <!--/column -->
+                    </div>
+                    <!--/.row -->
+                </div>
+                <!--/.card-body -->
+            </div>
+            <!--/.card -->
+            <div class="card image-wrapper bg-full bg-image bg-overlay bg-overlay-300 mt-14" data-image-src="./assets/img/photos/bg16.png">
+                <div class="card-body p-10 p-xl-12">
                     <div class="row text-center">
-                        <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-                            <h3 class="display-4 mb-5">Budaya Kami</h3>
-                            <p class="mb-6">Kami menerapkan Clan Culture dalam perusahaan. Budaya kerja yang mengutamakan kepentingan kelompok dan rasa kekeluargaan di dalam perusahaan</p>
+                        <div class="col-xl-11 col-xxl-11 mx-auto">
+                            <h2 class="fs-16 text-uppercase text-white mb-3">Join Our Community</h2>
+                            <h5 class="display-5 mb-8 px-lg-8 text-white">Come join us in the Rexie Discord! Be a part of the community as we share and discuss breaking news, announcements, collaboration alpha, DAO planning, and more!</4>
                         </div>
                         <!-- /column -->
                     </div>
                     <!-- /.row -->
-                    <div class="row gx-lg-8 gx-xl-12 gy-11 px-xxl-5 text-center d-flex align-items-end" data-cues="slideInDown" data-group="page-title">
-                        <div class="col-lg-4">
-                            <div class="px-md-15 px-lg-3">
-                                <figure class="mb-6"><img class="img-fluid" src="{{ asset('assets/img/illustrations/i6.png') }}" srcset="{{ asset('assets/img/illustrations/i6@2x.png 2x') }}" alt="Kekeluargaan" /></figure>
-                                <h3>Kekeluargaan</h3>
-                            </div>
-                            <!--/.px -->
-                        </div>
-                        <!--/column -->
-                        <div class="col-lg-4">
-                            <div class="px-md-15 px-lg-3">
-                                <figure class="mb-6"><img class="img-fluid" src="{{ asset('assets/img/illustrations/i8.png') }}" srcset="{{ asset('assets/img/illustrations/i8@2x.png 2x') }}" alt="" /></figure>
-                                <h3>Komunikasi</h3>
-                            </div>
-                            <!--/.px -->
-                        </div>
-                        <!--/column -->
-                        <div class="col-lg-4">
-                            <div class="px-md-15 px-lg-3">
-                                <figure class="mb-6"><img class="img-fluid" src="{{ asset('assets/img/illustrations/i4.png') }}" srcset="{{ asset('assets/img/illustrations/i4@2x.png 2x') }}" alt="" /></figure>
-                                <h3>Motivasi</h3>
-                            </div>
-                            <!--/.px -->
-                        </div>
-                        <!--/column -->
-                    </div>
-                    <!--/.row -->
-                </div>
-                <!-- /.container -->
-            </section>
-            <!-- /section -->
-            <!--/.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-    <section class="wrapper bg-light" id="our-service">
-        <div class="container py-14 py-md-13" >
-            <div class="row text-center">
-                <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2" >
-                    <h3 class="display-4 mb-5">Layanan Kami</h3>
-                    <p class="mb-1">Kami memberikan peluang kerjasama yang bervariasi dengan 3 metode bisnis</p>
-                </div>
-                <!-- /column -->
-            </div >
-            <!-- /.row -->
-            <div class="row gx-lg-8 gx-xl-12 gy-11 px-xxl-5 text-center d-flex align-items-end">
-                <div class="col-lg-4">
-                    <div class="px-md-15 px-lg-3">
-                        <figure class="mb-6"><img class="img-fluid" src="{{ asset("assets/img/b2b.png") }}" alt="B2B" /></figure>
-                        <h3>Business to Business</h3>
-                        <p class="mb-2">Penjualan produk atau jasa yang diberikan oleh satu bisnis dan diperuntukan untuk bisnis lainnya, bukan kepada konsumen.</p>
-                    </div>
-                    <!--/.px -->
-                </div>
-                <!--/column -->
-                <div class="col-lg-4">
-                    <div class="px-md-15 px-lg-3">
-                        <figure class="mb-6"><img class="img-fluid" src="{{ asset("assets/img/b2c.png") }}" alt="B2C" /></figure>
-                        <h3>Business to Consumer</h3>
-                        <p class="mb-2">Penjualan produk atau jasa kepada konsumen perorangan atau grup secara langsung</p>
-                    </div>
-                    <!--/.px -->
-                </div>
-                <!--/column -->
-                <div class="col-lg-4">
-                    <div class="px-md-15 px-lg-3">
-                        <figure class="mb-6"><img class="img-fluid" src="{{ asset("assets/img/c2c.png") }}" alt="C2C" /></figure>
-                        <h3>Consumer to Consumer</h3>
-                        <p class="mb-2">Kegiatan bisnis yang dilakukan antar konsumen dan dapat membeli atau menjual barang layaknya sebuah market.</p>
-                    </div>
-                    <!--/.px -->
-                </div>
-                <!--/column -->
-            </div>
-        </div>
-        <!-- /.container -->
-    </section>
-    <section class="wrapper bg-light" id="contact-us">
-        <div class="container py-14 py-md-13" >
-            <div class="row gy-10 gy-sm-13 gx-lg-3 align-items-center">
-                <div class="col-md-8 col-lg-6 position-relative">
-                    <div class="shape bg-dot primary rellax w-17 h-21" data-rellax-speed="1" style="top: -2rem; left: -1.9rem; transform: translate3d(0px, 5px, 0px);"></div>
-                    <div class="shape rounded bg-soft-primary rellax d-md-block" data-rellax-speed="0" style="bottom: -1.8rem; right: -1.5rem; width: 85%; height: 90%; transform: translate3d(0px, 0px, 0px);"></div>
-                    <figure class="rounded"><img src="{{ asset('assets/img/gudang-sgw.jpeg') }}" alt=""></figure>
-                </div>
-                <!--/column -->
-                <div class="col-lg-5 col-xl-4 offset-lg-1">
-                    <h2 class="fs-16 text-uppercase text-line text-primary mb-3">CV SGW Berjaya</h2>
-                    <h2 class="display-4 mb-8">Setia menjadi food solution bagi usaha Anda!</h2>
-                    <div class="d-flex flex-row">
-                        <div>
-                            <div class="icon text-primary fs-28 me-6 mt-n1"> <i class="uil uil-location-pin-alt"></i> </div>
-                        </div>
-                        <div>
-                            <h5 class="mb-1">Address</h5>
-                            <address>Jl. Puspitek No. 18, Pamulang Barat, Kec. Setu, <br> Kota Tangerang Selatan, Banten - 15310</address>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-row">
-                        <div>
-                            <div class="icon text-primary fs-28 me-6 mt-n1"> <i class="uil uil-phone-volume"></i> </div>
-                        </div>
-                        <div>
-                            <h5 class="mb-1">Phone</h5>
-                            <p>0877-7447-2616</p>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-row">
-                        <div>
-                            <div class="icon text-primary fs-28 me-6 mt-n1"> <i class="uil uil-envelope"></i> </div>
-                        </div>
-                        <div>
-                            <h5 class="mb-1">E-mail</h5>
-                            <p class="mb-0"><a href="mailto:sgwberjaya@gmail.com" class="link-body">sgwberjaya@gmail.com</a></p>
-                        </div>
+                    <div class="d-flex justify-content-center">
+                        <span><a href="https://discord.gg/sjgx9cascR" target="_blank" class="btn btn-white rounded">Join Us</a></span>
                     </div>
                 </div>
-                <!--/column -->
+                <!--/.card-body -->
             </div>
         </div>
         <!-- /.container -->
     </section>
     <!-- /section -->
 </div>
-<section class="wrapper image-wrapper bg-auto no-overlay bg-image text-center bg-map" data-image-src="{{ asset('assets/img/map.png') }}" style="background-image: url('{{ asset('assets/img/map.png') }}');">
-    <div class="container pt-0 pb-14 pt-md-18 pb-md-18">
-        <div class="row">
-            <div class="col-lg-10 col-xl-9 col-xxl-8 mx-auto">
-                <h3 class="display-4 mb-8 px-lg-12">Kami sudah dipercaya lebih dari 50+ partner. Gabung dengan mereka dan kembangkan bisnis Anda!.</h3>
-            </div>
-            <!-- /column -->
-        </div>
-        <!-- /.row -->
-        <div class="col-lg-12" data-cues="slideInDown" data-group="page-title">
-            <span ><a class="btn btn-success rounded mx-1 mb-3" href="https://api.whatsapp.com/send?phone=6287774472616&text=Hi%20CV%20SGW%20Berjaya%2C%20saya%20ingin%20bertanya" target="_blank">Whatsapp</a></span>
-            <span ><a class="btn btn-danger rounded mx-1 mb-3" href="https://shopee.co.id/sgwberjaya" target="_blank">Shopee</a></span>
-            <span ><a class="btn btn-success rounded mx-1 mb-3" href="https://www.tokopedia.com/cvsgw?utm_source=whatsapp&utm_medium=share&utm_campaign=Shop-67155372-13287610-130322&_branch_match_id=744884473984966054&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL8nPzi9ITclM1MvJzMvWD0lLKrI0dPPNzU8CAKEmlWciAAAA" target="_blank">Tokopedia</a></span>
-            <span ><a class="btn btn-success rounded mx-1 mb-3" href="https://www.grab.com/id/?pid=inappsharing&c=6-C3CUR7NUCABAVN&is_retargeting=true&af_force_deeplink=true" target="_blank">Grab Mart</a></span>
-        </div>
-    </div>
-    <!-- /.container -->
-</section>
-
 <!-- /.content-wrapper -->
-<footer class="bg-dark text-inverse">
-    <div class="container py-13 py-md-15">
-        <div class="row gy-6 gy-lg-0">
-            <div class="col-md-4 col-lg-3">
-                <div class="widget">
-                    <img class="mb-4" src="{{ asset('assets/img/logo-white.png') }}" alt="SGW Berjaya" />
-                    <p class="mb-4">© 2021 SGW Berjaya. <br class="d-none d-lg-block" />All rights reserved.</p>
-                    <nav class="nav social social-white">
-                        <a href="https://www.facebook.com/Sgwberjaya" target="_blank"><i class="uil uil-facebook-f"></i></a>
-                        <a href="https://instagram.com/sgwberjaya" target="_blank"><i class="uil uil-instagram"></i></a>
-                    </nav>
-                    <!-- /.social -->
-                </div>
-                <!-- /.widget -->
-            </div>
-            <!-- /column -->
-            <div class="col-md-6 col-lg-6">
-                <div class="widget">
-                    <h4 class="widget-title text-white mb-3">Get in Touch</h4>
-                    <address class="pe-xl-15 pe-xxl-17">Jl. Puspitek No. 18, Pamulang Barat, Kec. Setu, <br>Kota Tangerang Selatan, Banten - 15310</address>
-                    <a href="mailto:sgwberjaya@gmail.com">sgwberjaya@gmail.com</a><br /> 0877-7447-2616
-                </div>
-                <!-- /.widget -->
-            </div>
-            <!-- /column -->
-            <div class="col-md-4 col-lg-3">
-                <div class="widget">
-                    <h4 class="widget-title text-white mb-3">Learn More</h4>
-                    <ul class="list-unstyled  mb-0">
-                        <li><a href="#home" class="scroll">Home</a></li>
-                        <li><a href="#about-us" class="scroll">Tentang Kami</a></li>
-                        <li><a href="#our-service" class="scroll">Layanan Kami</a></li>
-                        <li><a href="#contact-us" class="scroll">Hubungi Kami</a></li>
-                    </ul>
-                </div>
-                <!-- /.widget -->
-            </div>
-            <!-- /column -->
-        </div>
+<footer class="bg-light">
+    <div class="container pb-7">
         <!--/.row -->
+        <hr class=" mb-5" />
+        <div class="d-md-flex align-items-center justify-content-between">
+            <p class="mb-2 mb-lg-0">© 2022 Rexie World. All rights reserved.</p>
+            <nav class="nav social  text-md-end">
+                <a href="https://twitter.com/RexieNFT" target="_blank"><i class="uil uil-twitter"></i></a>
+                <a href="https://discord.gg/sjgx9cascR" target="_blank"><i class="uil uil-discord"></i></a>
+            </nav>
+            <!-- /.social -->
+        </div>
+        <!-- /div -->
     </div>
     <!-- /.container -->
 </footer>

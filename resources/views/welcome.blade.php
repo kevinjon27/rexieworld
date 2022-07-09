@@ -205,7 +205,7 @@
                         <!--/column -->
                         <div class="col-md-4">
                             <img src="./assets/img/icons/solid/love.svg" class="svg-inject icon-svg icon-svg-md text-leaf mb-3" alt="" />
-                            <h4 class="mb-1">3. CLARITY</h4>
+                            <h4 class="mb-1">3. Charity</h4>
                             <p class="mb-0">We will partnership with non-profit organisation serving as a we will build the platform on Solana for activities related to social responsibility, education, children. together we make our World A Better Place</p>
                         </div>
                         <!--/column -->
